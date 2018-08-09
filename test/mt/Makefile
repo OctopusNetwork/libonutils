@@ -9,7 +9,7 @@ include $(rootdir)/build/common/common.mk
 ####
 ##  Application targets
 ####
-DEP_HEADERS += $(hostincdir)
+DEP_HEADERS += $(incdir)
 
 apps = mt_rbtree mt_list
 
